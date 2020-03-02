@@ -54,3 +54,25 @@ ul{
 .cabecalho nav{
     width: 60%;
 }
+
+.banner{
+    width: 100%;
+    height: 400px;
+    background-image: url("../Images/meta_mundo.jpg");
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 23px;
+}
+.btn{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+
+.banner .btn{
+    margin-top: 230px;
+}
