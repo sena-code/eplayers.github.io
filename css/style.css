@@ -206,5 +206,42 @@ background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(30,28,33,1) 35%, rgba(3
 .placar{
     font-size: 1.5em;
     text-shadow: 3px 3px 6px #000000;
-
-
+}
+footer{
+    box-shadow: 0px 0px 10px black;
+    color: white;
+    margin-top: 30px;
+    background: rgb(0,0,0);
+}
+footer a{
+    color: white;
+    text-decoration: none;
+}
+footer ul{
+    list-style-type: none;
+}
+footer .sociais{
+    display: flex;
+    justify-content: space-evenly;
+    color: var(--purple);
+    font-size: 2em;
+    padding: 1.2em 0px;
+}
+footer .container{
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+}
+footer h5{
+    padding-bottom: 1.2em;
+    color: #474747;
+    font-size: 1.7em;
+}
+footer h6{
+    text-align: end;
+    font-size: 1em;
+}
+footer p{
+    text-align: center;
+    color: #474747;
+}
