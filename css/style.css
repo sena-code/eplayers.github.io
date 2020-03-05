@@ -60,6 +60,7 @@ ul{
     height: 400px;
     background-image: url("../Images/meta_mundo.jpg");
     background-position: center;
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -330,6 +331,37 @@ fieldset label{
     margin-left: 0.5em;
     
 }
+@media screen and (max-width: 1200px){
+    .champion{
+        
+        right: -5%  
+    }
+    .sobre .container div{
+        width: 47%;
+    }
+    .container{
+        width: 95%;
+    }
 
+}/*Fim media mas 1200px  */
+
+@media screen and (max-width: 768px){
+    header img{
+        max-width: 180px;
+    }
+    .container{
+        width: 98%;
+    }
+    .champion{
+        right: -12%;
+        top: 580px;
+        width: 450px;
+    }
+    .sobre .container div{
+        width: 55%;
+        margin-left: 28px;
+
+    }
+}
 
 
