@@ -331,6 +331,14 @@ fieldset label{
     margin-left: 0.5em;
     
 }
+.cabecalho .fa-bars{
+    color: var(--purple);
+    font-size: 2em;
+     /* margin-left: 2em;   */
+    /* padding: 0.5em; */ 
+    display: none;
+
+}
 @media screen and (max-width: 1200px){
     .champion{
         
@@ -399,3 +407,38 @@ fieldset label{
     }
 } /* Fim media mas 768px */
 
+@media screen and (max-width: 460px){
+    .cabecalho .fa-bars{
+        display: block;
+    }
+    .champion{
+        display: none;
+        right: -12%;
+        top: 580px;
+        width: 450px;
+    }
+    #menu{
+        position: absolute; 
+        top: 72px;
+        background-color: #1e1c21;
+        width: 100%;
+        display: none;
+    }
+    .cabecalho div{
+       display: flex;
+       justify-content: space-between;
+       width: 100%;
+       align-items: center;
+       padding: 0 2em;
+    }
+    .cabecalho ul a{
+        padding: 0.5em 80% 1em 0.5em;
+        margin: 0.1em 0;
+        
+    }
+    .cabecalho ul{
+        flex-direction: column;
+        height: 250px;
+    }
+
+} /* Fim media mas 460px*\

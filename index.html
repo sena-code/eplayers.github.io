@@ -14,10 +14,17 @@
 
     <header>
         <div class="container cabecalho">
-            <a href="index.html">
+            <div>
+                
+                <a href="#" onclick="botaoMenu()">
+                    <i class="fas fa-bars"></i>
+                </a>
+
+                <a href="index.html">
                 <img src="images/Logo.svg" alt="Logo do site E-Players">
             </a>
-            <nav>
+            </div>
+            <nav id="menu">
                 <ul>
                     <li><a href="index.html" title="voltar para a página inicial">INÍCIO</a></li>
                     <li><a href="#horarios" title="Ir até a sessão de horários das partidas">HORÁRIOS</a></li>
@@ -274,6 +281,19 @@
     </div>
         <p>© Copyrigth 2077 - Todos os direitos reservados ao SENAI de informatica</p>
     </footer>
+
+<script>
+    function botaoMenu(){
+
+        var m = document.getElementById("menu")
+        if(m.style.display == "block"){
+            m.style.display = "none";
+        }else{
+            m.style.display = "block"
+        }
+    }
+
+</script>
 
 </body>
 
