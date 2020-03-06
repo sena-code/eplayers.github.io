@@ -411,6 +411,7 @@ fieldset label{
     .cabecalho .fa-bars{
         display: block;
     }
+    /* Champion ocultado no mobile */
     .champion{
         display: none;
         right: -12%;
@@ -440,5 +441,57 @@ fieldset label{
         flex-direction: column;
         height: 250px;
     }
-
+    .sobre .container div{
+        width: 85%;
+    }
+    .sobre h1{
+        text-align: center;
+        margin-bottom: 1em;
+    }
+    .sobre p{
+        text-align: justify;
+    }
+    #horarios .container{
+        flex-direction: column;
+    }
+    .ao_vivo, .em_breve{
+        padding: 1em;
+        border: none;
+        
+    }
+    
+    .partida{
+        margin: 1em 0;
+    }
+   .card{
+       flex-direction: column;
+       
+   }
+   .card img{
+       width: 100%;
+       object-fit:cover ;
+       object-position: top;
+   }
+   .noticias{
+       padding-right: 15px;
+       width: 95%;
+       
+   }
+   .recentes{
+       padding: 0.5em;
+   }
+   .content{
+       flex-direction: column;
+   }
+   footer .container{
+       flex-direction: column;
+   }
+   footer h6{
+    text-align: start;
+   }
+   .mob_logo_sociais{
+       padding: 15px;
+   }
+   
+  
 } /* Fim media mas 460px*\
